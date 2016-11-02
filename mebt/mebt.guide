@@ -1,0 +1,149 @@
+@DATABASE mebt.guide
+@AUTHOR "emarti, Murat Özdemir"
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*
+@$VER: mebt.guide 1.0 (24.10.2016) by emarti, Murat Özdemir
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*
+@NODE Main "MEBT Rehberi"
+
+														
+	   `7MMM.     ,MMF'`7MM"""YMM  `7MM"""Yp, MMP""MM""YMM 
+	     MMMb    dPMM    MM    `7    MM    Yb P'   MM   `7 
+	     M YM   ,M MM    MM   d      MM    dP      MM      
+	     M  Mb  M' MM    MMmmMM      MM"""bg.      MM      
+	     M  YM.P'  MM    MM   Y  ,   MM    `Y      MM      
+	     M  `YM'   MM    MM     ,M   MM    ,9      MM      
+	   .JML. `'  .JMML..JMMmmmmMMM .JMMmmmd9     .JMML.    
+														
+		     @{b}@{fg highlight}MESLEKÝ EÐÝLÝM BELÝRLEME TESTÝ@{fg text}@{ub}
+	@{b}
+	   Meslek seçiminde
+		   yanlýþ tercih 1 yýl, 
+			   yanlýþ üniversite 4 yýl, 
+				  yanlýþ meslek 40 yýl demektir
+@{ub}
+	@{" Giriþ           " link GIRIS}  @{" Test Uygulamasý " link TESTUYGULAMASI}  @{" Test Sonuçlarý  " link TESTSONUCLARI}
+	
+	@{" Meslek Gruplarý " link MESLEKGRUPLARI}  @{" Ýletiþim        " link ILETISIM}  @{" Sonsöz          " link SONSOZ}
+
+@ENDNODE
+
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node GIRIS
+@title "Giriþ"
+
+	@{b}Giriþ@{ub}
+	Herþeyden önce bu testin tek baþýna sizin tüm yetenek ve 
+eðilimlerinizi tam olarak ortaya çýkarmasýný beklemeyiniz. 
+Ancak yaklaþýk da olsa kendinizi tanýmanýz bakýmýndan size bir 
+fikir verecektir. Ama bu testin bilimsel olduðunu ve psikolojik 
+testler arasýnda yer aldýðýný da hatýrlatmak gerek.
+
+	Programýn çalýþabilmesi için MUI 3.8+ kütüphanesi kurulu olmalýdýr.
+Ayrýca türkçe karakterlerin WB 3.X'te düzgün görüntülenebilmesi için 
+Turkish Locale For Workbench 3.x (V1.5) kurmanýz tavsiye edilir.
+
+Link: 
+	@{i}http://aminet.net/util/libs/mui38usr.lha@{ui}
+	@{i}http://aminet.net/misc/misc/TurkceWB15.lha@{ui}
+
+@endnode
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node TESTUYGULAMASI
+@title "Test Uygulamasý"
+
+	@{b}Test Uygulamasý@{ub}
+	Bu test 160 maddeden oluþmaktadýr. Bu maddelerde belirtilen 
+etkinlikler ilginizi çekiyorsa ve sizin eðilimlerinize uygunsa 
+madde önündeki kutuyu iþaretleyin. Uygun deðilse boþ býrakýnýz.
+@endnode
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node TESTSONUCLARI
+@title "Test Sonuçlarý"
+
+	@{b}Test Sonuçlarý@{ub}
+	Alýnan puana göre:
+- Ýlginiz yok.
+- Ýlginiz var ama bu meslekleri seçmek için yeterli deðil.
+- Ýlginiz var ama bu meslekleri seçmeden önce bir kez daha düþünün.
+- Normal. Bu meslekleri seçebilirsiniz.
+- Bu meslekler için ideal birisiniz. Hiç düþünmeden seçiniz.
+sonuçlarý elde edilir.
+@endnode
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node MESLEKGRUPLARI
+@title "Meslek Gruplarý"
+
+	@{b}Meslek Gruplarý@{ub}
+
+A: Ziraat Müh., Orman Müh., Çevre Müh., Su ürünleri Müh., Maden Müh., 
+Meteoroloji Müh., Jeoloji Müh., Coðrafya, Arkeoloji, Veterinerlik vb.
+
+B: Mimarlýk, Ýç Mimarlik, Radyo-TV Teknisyenliði, Teknik Ressam, 
+Teknik Öðretmenlikler, Diþ Teknisyenliði, Makina Müh., Tekstil Müh. vb.
+
+C: Hukuk (Avukat, Yargýç, Savcý), Siyasal, Ýþletme, Yöneticilik vb.
+
+D: Fotoðraf, Sinema, Folklör, Müzik, Resim, Heykeltraþ, Spor, Mimarlýk, 
+Peyzaj Mimarlýðý, Dekoratörlük, Arkeoloji, Sanat Tarihi vb.
+
+E: Edebiyat, Gazetecilik, Ýletiþim, Öðretmenlik, Reklamcýlýk, 
+Halkla Ýliþkiler, Pazarlama, Psikolojik Danýþma ve Rehberlik, Ýlahiyat vb.
+
+F: Psikoloji, Sosyoloji, Antropoloji, Felsefe, Hukuk, Pazarlama, 
+Kamu Yönetimi, Gazetecilik, Yazarlýk, Halkla Ýliþkiler vb.
+
+G: Mütercimlik, Yabancý Dil Öðretmenliði, Filoloji, Turizm Otelcilik, 
+Uluslararasý Ýliþkiler vb.
+
+H: Biyoloji, Kimya, Týp, Eczacýlýk, Diþ Hekimliði, Hemþirelik, 
+Veterinerlik vb.
+
+I: Ýktisat, Ekonomi, Maliye, Bankacýlýk, Maliye Müfettiþliði, 
+Kamu ve Özel Sektör Yöneticiliði, Muhasebe vb.
+
+J: Bilgisayar Müh., Elektrik-Elektronik Müh., Ýnþaat Müh., Uçak Müh., 
+Endüstri Müh., Metaruji Müh., Matematik, Fizik vb.
+@endnode
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node ILETISIM
+@title "Ýletiþim"
+
+	@{b}Ýletiþim@{ub}
+Yazar:
+	Murat Özdemir
+	commodore.gen.tr'den emarti
+
+E-Posta: 
+	dtemarti@gmail.com
+
+Web Sitesi: 
+	https://github.com/emartisoft
+	http://emarti.blogspot.com.tr
+	http://csdb.dk/scener/?id=26786
+
+Android Sürümü:
+	Meslek Belirleme Testi 
+	https://play.google.com/store/apps/details?id=com.emarti.mebtfree&hl=tr
+@endnode
+@REMARK *¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨*	
+
+@node SONSOZ
+@title "Sonsöz"
+
+	@{b}Sonsöz@{ub}
+	Umarým, kendinizi tanýmanýza yardýmcý olmuþtur.
+
+	Amiga OS 3.X için kodlanmýþ olan bu programýn Windows, Linux ve 
+Android sürümleri de mevcuttur. Rehberin @{" Ýletiþim " link ILETISIM} bölümündeki 
+baðlantýlardan diðer platformlar için olan sürümlerine eriþilebilir.
+
+	Saygýlarýmla,
+	emarti, Murat Özdemir
+	24.10.2016
+@endnode
+
