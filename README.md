@@ -16,3 +16,4 @@ http://aminet.net/misc/misc/TurkceWB15.lha
 Saygılarımla,<br>
 emarti, Murat Özdemir
 
+![screenshot](https://github.com/emartisoft/mebt-Amiga/blob/master/screenshots/2.png?raw=true)
